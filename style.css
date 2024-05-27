@@ -1,0 +1,690 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.myfirstsection{
+    height: 640px;
+    /* border: 1px solid black; */
+}
+.partone{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0.5%;
+}
+.shop{
+    height: inherit;
+    width: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    height: inherit;
+    width: 55%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+.shoptwo{
+    height: inherit;
+    width: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.parttwo{
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.link{
+    color: gold;
+    border: none;
+}
+.partthree{
+    height: 520px;
+    /* border: 1px solid black; */
+    background-image: url('img/h1_hero1\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.newpartthree{
+    height: inherit;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.r1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: red;
+}
+.r2{
+    font-size: 55px;
+    text-transform: capitalize;
+}
+.r3{
+    height: 100px;
+    width: 54.50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 28px;
+    align-items: center;
+    text-transform: capitalize;
+}
+.r4{
+    height: 40px;
+    width: 150px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+/**************************************** Second Section ********************************************** */
+.mysecondsection{
+    height: 380px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* font-weight: bold; */
+}
+.one{
+    height: 320px;
+    width: 30%;
+    /* border: 1px solid black; */
+    background-image: url('img/items1\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.two{
+    height: 320px;
+    width:30%;
+    /* border: 1px solid black; */
+    background-image: url('img/items2\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.three{
+    height: 320px;
+    width:30%;
+    /* border: 1px solid black; */
+    background-image: url('img/items3\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:tomato
+    /* color: white; */
+}
+.r5{
+      display: flex;
+      /* flex-direction: column; */
+      margin-top: 230px;
+      justify-content: center;
+      text-transform: capitalize;
+      font-size: 30px;
+}
+
+/* ******************** Third Section ************************** */
+.mythirdsection{
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.partfour{
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.four{
+    width: 30%;
+    /* border: 1px solid black; */
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.five{
+    width: 25%;
+    /* border: 1px solid black; */
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 5%;
+    /* justify-content: center; */
+}
+.partfive{
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.six{
+    height: 350px;
+    width: 20%;
+    /* border: 1px solid black; */
+}
+.imgone{
+    height: 280px;
+    /* border: 1px solid black; */
+    background-image: url('img/latest4\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conone{
+    height: 70px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.r6{
+    font-size: 23px;
+    text-transform: capitalize;
+}
+.r7{
+    font-size: 20px;
+}
+.seven{
+    height: 350px;
+    width: 20%;
+    /* border: 1px solid black; */
+}
+.imgtwo{
+    height: 280px;
+    /* border: 1px solid black; */
+    background-image: url('img/latest1\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.eight{
+    height: 350px;
+    width: 20%;
+    /* border: 1px solid black; */
+}
+.imgthree{
+    height: 280px;
+    /* border: 1px solid black; */
+    background-image: url('img/latest2\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nine{
+    height: 350px;
+    width: 20%;
+    /* border: 1px solid black; */
+}
+.imgfour{
+    height: 280px;
+    /* border: 1px solid black; */
+    background-image: url('img/latest3\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* *********************** My Fourth Section ***************************** */
+.myfourthsection{
+    height: 410px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    background-color: blanchedalmond;
+    margin-top: 100px;
+}
+.partsix{
+    font-size: 45px;
+}
+.partseven{
+    height: 100px;
+    width: 60%;
+    /* border: 1px solid black; */
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.parteight{
+    height: 60px;
+    width: 20%;
+    /* border: 1px solid black; */
+    line-height: 25px;
+    font-size: 20px;
+    padding-left: 70px;
+    text-transform: capitalize;
+}
+
+/* ************ Section Five***************** */
+.myfifthsection{
+    height: 150px;
+    /* border: 1px solid black; */
+    font-size: 45px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* ************ Section Six***************** */
+.mysixsection{
+    height: 420px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.ten{
+    height: 350px;
+    width: 20%;
+    /* border: 1px solid black; */
+}
+.eleven{
+    height: 350px;
+    width: 20%;
+    /* border: 1px solid black; */
+}
+.twelve{
+    height: 350px;
+    width: 20%;
+    /* border: 1px solid black; */
+}
+.therteen{
+    height: 350px;
+    width: 20%;
+    /* border: 1px solid black; */
+}
+.imgfive{
+    height: 280px;
+    /* border: 1px solid black; */
+    background-image: url('img/latest5\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgsix{
+    height: 280px;
+    /* border: 1px solid black; */
+    background-image: url('img/latest6\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgseven{
+    height: 280px;
+    /* border: 1px solid black; */
+    background-image: url('img/latest7\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgeight{
+    height: 280px;
+    /* border: 1px solid black; */
+    background-image: url('img/latest8\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************** Seven Section****************** */
+.mysevensection{
+    height: 150px;
+    /* border: 1px solid black; */
+    font-size: 45px;
+    text-transform: capitalize;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(169, 169, 169, 0.252);
+}
+
+
+
+/* *************** Eight Section****************** */
+.myeightsection{
+    height: 550px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: rgba(169, 169, 169, 0.252);
+}
+.fourteen{
+    height: 470px;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+
+.imgnine{
+    height: 270px;
+    /* border: 1px solid black; */
+    background-image: url('img/blog1\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contant{
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.r8{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.r9{
+    font-size: 22px;
+}
+.r10{
+    font-size: 16px;
+    line-height: 25px;
+}
+.r11{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: gray;
+}
+.fifteen{
+    height:470px;
+    width:30%;
+    /* border: 1px solid black; */
+}
+.imgten{
+    height:270px;
+    /* border: 1px solid black; */
+    background-image: url('img/blog2\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgeleven{
+    height:270px;
+    /* border: 1px solid black; */
+    background-image: url('img/blog3\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sixteen{
+    height:470px;
+       width:30%;
+       /* border: 1px solid black; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************** Nine Section****************** */
+.myninesection{
+    height: 220px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.seventeen{
+    height: 200px;
+    width: 23%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.eightteen{
+    height: 200px;
+    width: 23%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.nineteen{
+    height: 200px;
+    width: 23%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.tweteen{
+    height: 200px;
+    width: 23%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.r12{
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r13{
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.r14{
+    height: 50px;
+    /* border: 1px solid black; */
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* ************ Ten Section ******************** */
+.mytensection{
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    background-color: black;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+}
+.partnine{
+    height: inherit;
+    width: 33%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* align-items: center; */
+    padding-left: 50px;
+    justify-content: center;
+}
+.r15{
+    font-size: 23px;
+}
+.partten{
+    height: inherit;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+    /* align-items: center; */
+    padding-left: 50px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.r17{
+    height: 50px;
+    width: 400px;
+    border: 1px solid black;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 17px;
+    border-color: white;
+    color: black;
+    background-color: white;
+}
+.r18{
+    height: 50px;
+    width: 140px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+}
+.parteleven{
+    height: inherit;
+    width: 17%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/* ***************Footer************************** */
+.footer{
+    height: 500px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.footpartone{
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footone{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+    padding-left: 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.foottwo{
+    height: 300px;
+    width: 20%;
+    padding-left: 40px;
+    /* border: 1px solid black; */
+}
+.r19{
+    height: 50px;
+    /* border: 1px solid black; */
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.r20{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footfour{
+    height: 300px;
+    width: 20%;
+    padding-left: 40px;
+    /* border: 1px solid black; */
+}
+.footfive{
+    height: 300px;
+    width: 20%;
+    padding-left: 40px;
+    /* border: 1px solid black; */
+}
+.footparttwo{
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
